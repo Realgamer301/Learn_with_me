@@ -1,0 +1,105 @@
+
+
+.container {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    background-image: url(../images/students.jpg);
+}
+.senior {
+    position: relative;
+    padding: 10px;
+    background-color: transparent;
+    width: 220px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5.5px;
+    margin: 10px;
+    outline-style: solid;
+    outline-color: white;
+    transition-duration: 3s;
+}
+.s {
+    font-size: 30px;
+    font-weight: 400;
+    color: darkblue;
+}
+
+ .Senior1math {
+    padding: 10px;
+    width: 250px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25.5px;
+    margin: 10px;
+    background-color: transparent;
+    border-style: solid;
+}
+.Math {
+    font-size: 65px;
+    letter-spacing: 1px;
+}
+
+
+.containers1{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+
+
+.containermath {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    transition-duration: 0.3s;
+    background-color: transparent;
+}
+
+
+.lectures {
+    margin: 10px;
+    height: 60px;
+    background-color: cyan;
+    width: 500px;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.Senior1math:hover {
+height: 210px;;
+width: 270px;
+cursor: pointer;
+}
+.senior:hover{
+    cursor: pointer;
+    right: 30px;
+    
+}
+.lectures:hover{
+    cursor: pointer;
+    height: 70px;
+    width: 520px;
+}
